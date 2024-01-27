@@ -1,0 +1,131 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1168px;
+  margin: auto;
+}
+
+/* ------------HEADER------------------ */
+
+header {
+  background: #181818;
+  padding: 20px 20px 20px 32px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  gap: 32px;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 133.333% */
+}
+
+header nav ul li:first-of-type a {
+  margin-right: 24px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 153.846% */
+}
+
+header nav ul li:last-of-type a {
+  border-radius: 14px;
+  background: #fff;
+  padding: 9px 20px 13px 20px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.4px;
+}
+
+/* ------------HERO------------------ */
+
+.hero {
+  background-image: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  padding-top: 461px;
+  padding-bottom: 71px;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero .container {
+  position: relative;
+}
+
+.hero span {
+  color: #c0c0c0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.hero h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59.4px; /* 110% */
+  margin-bottom: 18px;
+}
+
+.hero p {
+  color: #c0c0c0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  max-width: 580px;
+  margin: auto;
+  margin-bottom: 14px;
+}
+
+.hero article {
+  position: absolute;
+  right: -126px;
+}
+
+.hero article ul {
+  display: flex;
+  gap: 16px;
+}
+
+.hero article ul li {
+  display: flex;
+  gap: 6px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+}
