@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -32,25 +34,49 @@
     <main>
       <section class="hero">
         <div class="container">
-          <span>Photographer & Filmmaker</span>
-          <h1>Aperture Studios</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
-          </p>
           <article>
-            <ul>
-              <li><img src="./images/hero-svg-1.svg" alt="svg-1" />1/2000s</li>
-              <li><img src="./images/hero-svg-2.svg" alt="svg-2" />f/11</li>
-              <li><img src="./images/hero-svg-3.svg" alt="svg-3" />100</li>
-              <li><img src="./images/hero-svg-4.svg" alt="svg-4" />Iceland</li>
-            </ul>
+            <span>Photographer & Filmmaker</span>
+            <h1>Aperture Studios</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
+              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            </p>
           </article>
+          <ul class="list--icon">
+            <li>1/2000s</li>
+            <li>f/11</li>
+            <li>100</li>
+            <li>Iceland</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="clients">
+        <div class="container">
+          <h2>Past clients</h2>
+          <p>Trusted by your favourite companies</p>
+          <div class="owl-carousel">
+            <article>
+              <img src="./images/clients-1.svg" alt="clients-1" />
+              <img src="./images/clients-2.svg" alt="clients-2" />
+              <img src="./images/clients-3.svg" alt="clients-3" />
+              <img src="./images/clients-4.svg" alt="clients-4" />
+              <img src="./images/clients-5.svg" alt="clients-5" />
+            </article>
+          </div>
         </div>
       </section>
     </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
