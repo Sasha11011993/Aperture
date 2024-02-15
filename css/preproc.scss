@@ -1,0 +1,80 @@
+@import "../css/mobile";
+
+$main_font: "Poppins";
+$maim_color: black;
+
+header {
+  background: #181818;
+  padding: 30px 20px 29px 32px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+      ul {
+        display: flex;
+        gap: 32px;
+
+        li {
+          a {
+            color: #fff;
+            font-family: $main_font;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 133.333% */
+            transition: 0.3s;
+
+            &:hover {
+              font-size: 20px;
+            }
+          }
+          &:first-of-type {
+            a {
+              margin-right: 24px;
+              color: #fff;
+              font-family: $main_font;
+              font-size: 13px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 20px; /* 153.846% */
+            }
+
+            & {
+              a:hover {
+                font-size: 20px;
+              }
+            }
+          }
+
+          &:last-of-type {
+            a {
+              border-radius: 14px;
+              background: #fff;
+              padding: 9px 20px 13px 20px;
+              color: #000;
+              font-family: $main_font;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 20px; /* 125% */
+              letter-spacing: 0.4px;
+            }
+
+            & {
+              a:hover {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#toggle {
+  display: none;
+}
